@@ -63,6 +63,7 @@ spec:
         image: realshifu/spring-boot
         ports:
         - containerPort: 8080
+        imagePullPolicy: Always
         env:
         - name: MONGO_DB_USERNAME
           valueFrom:
