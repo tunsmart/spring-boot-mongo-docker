@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: realshifu/spring-boot
+        image: realshifu/spring-boot:latest
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
